@@ -1,5 +1,7 @@
 /* importing google font: poppins */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap");
+
 :root {
 	--bg-black-900: #f2f2fc;
 	--bg-black-100: #fdf9ff;
@@ -8,7 +10,7 @@
 	--text-black-700: #504e70;
 }
 body {
-	font-family: "Poppins" sans-serif;
+	font-family: "Poppins", sans-serif;
 	line-height: 1.5;
 	font-size: 16px;
 }
@@ -57,4 +59,16 @@ ul {
 	top: 50px;
 	font-size: 30px;
 	text-transform: capitalize;
+}
+.sidebar .logo a {
+	color: var(--text-black-900);
+	font-weight: 700;
+	padding: 15px 20px;
+	font-size: 30px;
+	letter-spacing: 5px;
+	position: relative;
+}
+.sidebar .logo a span {
+	font-family: "Clicker Script", cursive;
+	font-size: 40px;
 }
