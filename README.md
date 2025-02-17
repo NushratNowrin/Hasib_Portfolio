@@ -14,4 +14,5 @@ A responsive portfolio website built using HTML, CSS, and JavaScript.
 
 ## Libraries
 
-- Font Awesome
+- Font Awesome: For icons,
+- 
