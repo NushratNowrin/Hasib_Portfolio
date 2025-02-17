@@ -15,4 +15,4 @@ A responsive portfolio website built using HTML, CSS, and JavaScript.
 ## Libraries
 
 - Font Awesome: For icons,
-- 
+- Google Font: Poppins
