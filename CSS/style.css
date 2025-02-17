@@ -34,13 +34,28 @@ ul {
 	display: block;
 	position: fixed;
 	left: 270px;
+	padding: 0 30px;
 	top: 0;
 	right: 0;
 	z-index: 0;
 	opacity: 1;
 }
-
-/* Sidebar styling */
+.padd-15 {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.container {
+	max-width: 1100px;
+	width: 100%;
+	margin: auto;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+	position: relative;
+}
+/* Sidebar styling start*/
 .sidebar {
 	width: 270px;
 	background: var(--bg-black-100);
@@ -143,4 +158,15 @@ ul {
 }
 .sidebar .nav li a.active {
 	color: var(--skin-color);
+}
+/* Sidebar styling end*/
+
+/* Homepage styling start*/
+.home {
+	min-height: 100vh;
+	display: flex;
+	color: var(--bg-black-900);
+}
+.home .home-img img {
+	height: 400px;
 }
