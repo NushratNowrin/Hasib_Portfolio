@@ -7,7 +7,7 @@
 		<title>Document</title>
 		<!-- CSS Files -->
 		<link rel="stylesheet" href="../CSS/style.css" />
-		<link rel="stylesheet" href="../CSS/color.css" />
+		<link rel="stylesheet" href="../CSS/theme/color-1.css" />
 		<!-- Font Awesome -->
 		<link
 			rel="stylesheet"
@@ -81,6 +81,25 @@
 			<!-- Main content end -->
 		</div>
 		<!-- Main Container End -->
+
+		<!-- Style switcher Start -->
+		<div class="style-switcher">
+			<div class="style-switcher-toggler s-icon">
+				<i class="fas fa-cog fa-skin"></i>
+			</div>
+			<div class="day-night s-icon">
+				<i class="fas fa-moon"></i>
+			</div>
+			<h4>Theme Color</h4>
+			<div class="colors">
+				<span class="color-1" onclick="setActiveStyle('color-1')"></span>
+				<span class="color-2" onclick="setActiveStyle('color-2')"></span>
+				<span class="color-3" onclick="setActiveStyle('color-3')"></span>
+				<span class="color-4" onclick="setActiveStyle('color-4')"></span>
+				<span class="color-5" onclick="setActiveStyle('color-5')"></span>
+			</div>
+		</div>
+		<!-- Style switcher End -->
 		<!-- JS Files -->
 		<script src="../JS/script.js"></script>
 	</body>
