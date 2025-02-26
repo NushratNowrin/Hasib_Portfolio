@@ -78,6 +78,15 @@ ul {
 	top: 100%;
 	left: 0;
 }
+.section-subtitle h3::before {
+	content: "";
+	height: 4px;
+	width: 50px;
+	background-color: var(--skin-color);
+	position: absolute;
+	top: 100%;
+	left: 15px;
+}
 .section-title h2::after {
 	content: "";
 	height: 4px;
@@ -302,7 +311,7 @@ h3.my-profession {
 	line-height: 25px;
 	color: var(--text-black-700);
 }
-.about .about-content .personal-info{
+.about .about-content .personal-info {
 	flex: 0 0 100%;
 	margin-top: 40px;
 }
@@ -321,4 +330,30 @@ h3.my-profession {
 	font-weight: 400;
 	color: var(--text-black-700);
 	margin-left: 4px;
+}
+.skills {
+	flex: 0 0 60%;
+	margin-top: 40px;
+}
+.about .about-content .skills .skills-title {
+	font-size: 24px;
+	color: var(--text-black-900);
+}
+.skills-info {
+	margin-top: 40px;
+}
+.skill-item {
+	list-style-type: square;
+	list-style-position: inside;
+	font-weight: 600;
+	padding: 10px 0;
+	font-size: 16px;
+	color: var(--text-black-900);
+	border-bottom: 1px solid var(--bg-black-50);
+}
+
+.skill-image {
+	flex: 0 0 40%;
+	margin-top: 80px;
+	background-color: aquamarine;
 }
