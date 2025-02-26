@@ -364,3 +364,9 @@ h3.my-profession {
 	background-size: cover;
 	background-color: aquamarine;
 }
+.about-btn{
+	margin-top: 40px;
+}
+.about-btn a{
+	margin-right: 20px;
+}
