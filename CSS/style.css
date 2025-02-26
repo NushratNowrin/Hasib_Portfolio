@@ -350,8 +350,11 @@ h3.my-profession {
 	font-size: 16px;
 	color: var(--text-black-900);
 	border-bottom: 1px solid var(--bg-black-50);
+	width: 90%;
 }
-
+.skill-item::marker {
+	color: var(--skin-color); /* Change this to any color you want */
+}
 .skill-image {
 	flex: 0 0 40%;
 	margin-top: 80px;
